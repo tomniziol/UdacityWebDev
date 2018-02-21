@@ -1,0 +1,53 @@
+/* add your CSS here */
+body {
+  font-family: Times New Roman, sans-serif;
+  text-align: left;
+  }
+
+ul {
+  padding: 0;
+  }
+
+li {
+  list-style-type: none;
+  text-align: left;
+  }
+
+span {
+  font-weight: bold;
+  }
+
+#toDiv1 {
+  width:300px;
+  background: white;
+  padding: 10px 10px;
+  border: 1px solid blue;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px #ccc;
+  }
+
+#toDiv2 {
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 1px 8px 1px 8px; 
+  }
+  
+.block {
+  margin-bottom: 8px;
+  border: 1px solid white;
+  border-radius: 8px;
+
+}
+
+.boldTitle {
+  border-collapse: separate;
+  border-spacing: 10px 5px;
+  }
+
+.italic {
+  font-style: italic
+  }
+
+.list {
+  text-align: left;
+}
