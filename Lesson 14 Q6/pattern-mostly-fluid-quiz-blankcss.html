@@ -64,16 +64,26 @@
         display: flex;
         flex-wrap: wrap;
       }
-
       .box {
         width: 100%;
       }
-
-      @media screen and (max-width: 400px) {
-        .dark_blue {
-          color: blue;
+      @media screen and (min-width: 450px) {
+        .light_blue, .green{
+          width: 50%;
+        }}
+      @media screen and (min-width: 550px) {
+       .red {
+          width: 33.33%;
         }
-      }
+         .orange {
+          width: 66.66%;
+        }}        
+      @media screen and (min-width: 800px) {
+        .container {
+          width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }}
     </style>
   </head>
   <body>
