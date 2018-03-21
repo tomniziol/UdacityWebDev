@@ -9,7 +9,11 @@ body {
   margin-right: auto;
 }
 
-p, h1 {
+main {
+  padding: 2em;
+}
+
+h1 {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1.4px;
@@ -17,10 +21,6 @@ p, h1 {
 
 h2 {
   color: #7d97ad;
-}
-
-p {
-  font-size: 1.2em;
 }
 
 a {
@@ -84,4 +84,17 @@ a:visited {
   color: #2d3c49;
   text-transform: uppercase;
   letter-spacing: 1.4px;
+}
+
+.page-footer {
+  background-color: #ffffff;
+  height: 160px;
+   border-top: 2px solid #7d97ad; 
+}
+
+.about-company {
+  height: 85px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
 }
