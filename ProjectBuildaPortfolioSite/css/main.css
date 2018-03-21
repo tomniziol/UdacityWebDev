@@ -6,4 +6,20 @@ body {
   color: #2d3c49;
 }
 
+p {
+  text-transform: uppercase;
+}
 
+.featuredWork {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  
+}
+
+
+.porfolio {
+
+}
