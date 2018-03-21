@@ -6,9 +6,11 @@ body {
   color: #2d3c49;
 }
 
-p {
+p, h1 {
   text-transform: uppercase;
+  text-align: center;
 }
+
 
 .featuredWork {
   display: flex;
@@ -16,10 +18,86 @@ p {
   justify-content: space-around;
   align-content: space-around;
   align-items: center;
+  width: 100%;
   
+ 
+}
+
+.mainPhoto {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.mainPhoto img {
+	
+	width: 70%;
+	padding: 2em;
+}
+
+.featuredWork h1 {
+	flex: 100%;
+	
+	}
+
+	.portfolio {
+	display: flex;
+	 flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  
+ 
+}
+
+.portfolio img {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: auto;
+	padding: 1em;
+}
+
+.portfolio-1, .portfolio-2, .portfolio-3 {
+	flex-direction: column;
+	width: 33.3333%;
+      height: 120px;
+      display: flex;
+	  
+      vertical-align: middle;
+      background:#eee;
+      
+      text-align: center;
 }
 
 
-.porfolio {
-
+.article {
+	
 }
+	
+	
+/*
+
+
+.portfolio {
+	display: flex;
+	 flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.portfolio img {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100px;
+	width: 150px;
+	padding: 1em;
+}
+
+.article p {
+	
+		
+}
+*/
